@@ -72,32 +72,32 @@ const Dashboard = ({ setActiveSection }: { setActiveSection: (section: string) =
       title: 'Mood Tracker',
       description: 'Track your daily emotions and see patterns over time',
       icon: Smile,
-      color: 'from-blue-500 to-blue-600',
-      bgColor: 'bg-blue-50'
+      color: 'from-blue-300 to-blue-400',
+      bgColor: 'bg-blue-50/70'
     },
     {
       id: 'quotes',
       title: 'Daily Inspiration',
       description: 'Discover motivational quotes to brighten your day',
       icon: Heart,
-      color: 'from-pink-500 to-rose-600',
-      bgColor: 'bg-pink-50'
+      color: 'from-pink-300 to-rose-400',
+      bgColor: 'bg-pink-50/70'
     },
     {
       id: 'journal',
       title: 'Journal Space',
       description: 'A safe space to express your thoughts and feelings',
       icon: BookOpen,
-      color: 'from-green-500 to-emerald-600',
-      bgColor: 'bg-green-50'
+      color: 'from-green-300 to-emerald-400',
+      bgColor: 'bg-green-50/70'
     },
     {
       id: 'checkin',
       title: 'Wellness Check-in',
       description: 'Quick emotional assessments to understand yourself better',
       icon: MessageCircle,
-      color: 'from-purple-500 to-violet-600',
-      bgColor: 'bg-purple-50'
+      color: 'from-purple-300 to-violet-400',
+      bgColor: 'bg-purple-50/70'
     }
   ];
 

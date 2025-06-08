@@ -105,18 +105,18 @@ const JournalSpace = () => {
       </Card>
 
       {/* Writing Prompts */}
-      <Card className="p-8 bg-gradient-to-r from-purple-50 to-pink-50 border-purple-200">
+      <Card className="p-4 sm:p-8 bg-gradient-to-r from-purple-50 to-pink-50 border-purple-200">
         <div className="space-y-6">
-          <h3 className="text-xl font-semibold text-gray-800">Need inspiration? Try these prompts:</h3>
+          <h3 className="text-lg sm:text-xl font-semibold text-gray-800">Need inspiration? Try these prompts:</h3>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             {prompts.slice(0, 6).map((prompt, index) => (
               <button
                 key={index}
                 onClick={() => usePrompt(prompt)}
-                className="p-4 bg-white/70 rounded-xl text-left hover:bg-white/90 transition-colors border border-white/50"
+                className="p-3 sm:p-4 bg-white/70 rounded-xl text-left hover:bg-white/90 transition-colors border border-white/50 text-sm sm:text-base"
               >
-                <p className="text-gray-700 text-sm">{prompt}</p>
+                <p className="text-gray-700">{prompt}</p>
               </button>
             ))}
           </div>
