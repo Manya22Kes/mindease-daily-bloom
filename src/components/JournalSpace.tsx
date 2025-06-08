@@ -114,9 +114,9 @@ const JournalSpace = () => {
               <button
                 key={index}
                 onClick={() => usePrompt(prompt)}
-                className="p-3 sm:p-4 bg-white/70 rounded-xl text-left hover:bg-white/90 transition-colors border border-white/50 text-sm sm:text-base"
+                className="p-3 sm:p-4 bg-white/70 rounded-xl text-left hover:bg-white/90 hover:shadow-lg hover:scale-105 transition-all duration-300 border border-white/50 text-sm sm:text-base group"
               >
-                <p className="text-gray-700">{prompt}</p>
+                <p className="text-gray-700 group-hover:text-gray-900">{prompt}</p>
               </button>
             ))}
           </div>
